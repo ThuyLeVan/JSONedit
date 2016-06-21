@@ -1,6 +1,6 @@
 To start, please put folder to a webserver, example: IIS, Apache ...
 
-##2.How to open new JSON file:
+##1.How to open new JSON file:
     - To open a JSON file, you can drag/drop file, choose by click left textbox. It support JSON and TXT file
       If it is not right format JSON file, an mess will be show error
 
@@ -10,16 +10,16 @@ To start, please put folder to a webserver, example: IIS, Apache ...
       If key have already exits, an confirm dialog will be show to ask you want replace old key?
       A key have 5 formats: text, number, Boolean, object, array
 
-##2.How to edit JSON file:
+##3.How to edit JSON file:
     - How to edit JSON file
       When you delete a key, an alert will be show to confirm delete
 
-##2.How to save JSON file:
+##4.How to save JSON file:
     - To save JSON file, click Save button, you can choose format of file will save: txt, JSON.
       File name must is a file name valid, if it not valid, an mess will be show to alert this.
-<img src="http://imgur.com/OFl6cLK" />
-##2.Example JSON file:
-    
+
+##5.Example JSON file:
+    ![ScreenShot](http://imgur.com/OFl6cLK)
     {
       "key 1": "value 1",
       "key 2": 2,

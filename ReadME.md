@@ -19,7 +19,7 @@ To start, please put folder to a webserver, example: IIS, Apache ...
       File name must is a file name valid, if it not valid, an mess will be show to alert this.
 
 ##2.Example JSON file:
-    <img src="http://imgur.com/OFl6cLK">
+    <img src="http://imgur.com/OFl6cLK" />
     {
       "key 1": "value 1",
       "key 2": 2,

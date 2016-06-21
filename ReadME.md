@@ -17,9 +17,9 @@ To start, please put folder to a webserver, example: IIS, Apache ...
 ##2.How to save JSON file:
     - To save JSON file, click Save button, you can choose format of file will save: txt, JSON.
       File name must is a file name valid, if it not valid, an mess will be show to alert this.
-
+<img src="http://imgur.com/OFl6cLK" />
 ##2.Example JSON file:
-    <img src="http://imgur.com/OFl6cLK" />
+    
     {
       "key 1": "value 1",
       "key 2": 2,

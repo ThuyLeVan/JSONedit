@@ -18,8 +18,10 @@ To start, please put folder to a webserver, example: IIS, Apache ...
     - To save JSON file, click Save button, you can choose format of file will save: txt, JSON.
       File name must is a file name valid, if it not valid, an mess will be show to alert this.
 
-##5.Example JSON file:
-    <img src="http://i.imgur.com/OFl6cLK.png" />
+##5.Example
+<img src="http://i.imgur.com/OFl6cLK.png" />
+
+JSON file:
     {
       "key 1": "value 1",
       "key 2": 2,

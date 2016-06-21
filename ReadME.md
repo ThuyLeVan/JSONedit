@@ -19,34 +19,35 @@ To start, please put folder to a webserver, example: IIS, Apache ...
       File name must is a file name valid, if it not valid, an mess will be show to alert this.
 
 ##5.Example
+
 <img src="http://i.imgur.com/OFl6cLK.png" />
 
-JSON file
-        {
-          "key 1": "value 1",
-          "key 2": 2,
-          "key 3": true,
-          "key 4": {
-            "key 4.1": "value 4.1",
-            "key 4.2": {
-              "key 4.2.1": "value 4.2.1"
-            }
-          },
-          "key 5": [
-            "value 5.1"
-          ],
-          "__comment": {
-            "key 1": "comment 1",
-            "key 2": "comment 2",
-            "key 3": "comment 3",
-            "key 4": {
-              "key 4.1": "comment 4.1",
-              "key 4.2": {
-                "key 4.2.1": "comment 4.2.1"
-              }
-            },
-            "key 5": [
-              "comment 5.1"
-            ]
-          }
-        }
+        JSON file
+                {
+                  "key 1": "value 1",
+                  "key 2": 2,
+                  "key 3": true,
+                  "key 4": {
+                    "key 4.1": "value 4.1",
+                    "key 4.2": {
+                      "key 4.2.1": "value 4.2.1"
+                    }
+                  },
+                  "key 5": [
+                    "value 5.1"
+                  ],
+                  "__comment": {
+                    "key 1": "comment 1",
+                    "key 2": "comment 2",
+                    "key 3": "comment 3",
+                    "key 4": {
+                      "key 4.1": "comment 4.1",
+                      "key 4.2": {
+                        "key 4.2.1": "comment 4.2.1"
+                      }
+                    },
+                    "key 5": [
+                      "comment 5.1"
+                    ]
+                  }
+                }

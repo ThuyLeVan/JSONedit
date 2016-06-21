@@ -1,0 +1,12 @@
+Version 1.1 – Last release date: 06/21/2016
+
+Features:
+    - Open JSON file by select, drag/drop file
+    - Create JSON file by UI
+    - Edit JSON file by UI
+    - Support add JSON comment
+    - Support save file to txt file or JSON file
+    - View JSON as tree view
+Bugs:
+    - Performance is not good when load big file size
+    - UI is not good

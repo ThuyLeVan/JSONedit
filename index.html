@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JSON Editor</title>
+    <!-- css file -->
+    <link href="public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="public/css/myStyle.css" rel="stylesheet" type="text/css" />
+
+    <!--js file-->
+    <script src="public/js/jquery.min.js"></script>
+    <script src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/treeviewJSON.js"></script>
+
+    <!-- angular js file -->
+    <script src="public/js/angular.min.js"></script>
+    <script src="public/js/angular-route.min.js"></script>
+
+    <!--app js file-->
+    <script src="src/components/JSONdirectives.js"></script>
+    <script src="src/components/uploadFile.js"></script>
+    <script src="src/app.js"></script>
+</head>
+<body>
+    <!-- Start Header -->
+    <nav class="navbar navbar-inverse" ng-controller="HeaderCtrl">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">{{appTitle}}</a>
+            </div>
+            <!-- Start Menu -->
+            <ul class="nav navbar-nav" >
+                <li ng-class="{ active: isActive('/')}" ><a href="#">Home</a></li>
+                <li ng-class="{ active: isActive('/example')}"><a href="#/example">Example</a></li>
+                <li ng-class="{ active: isActive('/about')}"><a href="#/about">About</a></li>
+            </ul>
+            <!-- End Menu -->
+        </div>
+    </nav>
+    <!-- End Header -->
+    <!-- Start JSONedit -->
+    <div class="container theme-showcase" ng-view ></div>
+    <!-- End JSONedit -->
+    <!-- Start Footer -->
+    <div class="navbar">
+        <hr class="style">
+        <div class="container">
+            <p class="navbar-text pull-left">
+                © 2016 - Site Built By Thuy Le Van -
+                <a href="#" >4T Company</a>
+            </p>
+            <a href="https://github.com/ThuyLeVan/JSONeditor" target="_blank" class="navbar-btn btn-danger btn pull-right">
+                <span class="glyphicon glyphicon-star"></span> View it on GitHub
+            </a>
+        </div>
+   </div>
+   <!-- End Footer -->
+</body>
+</html>
